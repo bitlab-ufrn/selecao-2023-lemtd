@@ -1,0 +1,18 @@
+#messagem {
+    margin: 3rem;
+    min-width: 20vh;
+    width: 60vh;
+    height: 15vh;
+}
+
+#enviar {
+    width: 40vh;
+    min-width: 10vh;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
