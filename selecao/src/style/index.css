@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body, html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(24, 37, 55);
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: #1e4d69;
+  color: white;
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: #5c7994;
+}
