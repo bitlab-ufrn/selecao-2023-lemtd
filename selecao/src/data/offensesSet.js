@@ -1,4 +1,4 @@
-exports.ofensasSet = [
+exports.offensesSet = [
     "Boquete", "Caralho", "Do caralho", "Foda", "Foda-se",
     "Foder", "Fuder", "Nem fudendo", "Nem fodendo", "Pau", 
     "Porra", "Pra caralho", "Puta merda", "Puta que pariu",
