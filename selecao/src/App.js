@@ -1,14 +1,21 @@
+import { useState } from 'react';
 import './style/App.css';
 import Welcome from './components/Header';
 import Field from './components/Field';
-// import Coment from './components/Coment';
+import Coment from './components/Coment';
 
-function App() {
+const App = () => {
+  const [coments, setComents] = useState([]);
+
+  async function addComents(coment) {
+    setComents([...coments, coment])
+  }
+
   return (
     <main className='App'>
       <Welcome />
-      <Field />
-      {/* <Coment /> */}
+      <Field add={addComents} coments={coments} />
+      <Coment coments={coments} />
     </main>
   );
 }

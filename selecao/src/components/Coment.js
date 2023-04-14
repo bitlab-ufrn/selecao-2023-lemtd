@@ -1,20 +1,11 @@
-// import { useState } from "react";
+import { useState } from "react";
 
-// const Coment = () => {
-//     const [coments, setComents] = useState([]);
+const Coment = props => {
+    return (
+        <div>
+            {/* {coments.map(coment => <div>{coment}</div>)} */}
+        </div>
+    )
+}
 
-//     function addComent(containsOffense, coment) {
-//         if (!containsOffense) {
-//             setComents(current => [...current, coment])
-//         }
-//         console.log(">> ", coments.length)
-//     }
-
-//     return (
-//         <div>
-//             {coments.map(coment => <div>{coment}</div>)}
-//         </div>
-//     )
-// }
-
-// export default Coment
+export default Coment

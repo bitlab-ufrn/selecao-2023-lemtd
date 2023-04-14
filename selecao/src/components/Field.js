@@ -5,7 +5,7 @@ import Popup from './Popup';
 // import { addComent } from './Coment';
 const data = require('../data/offensesSet');
 
-const Field = () => {    
+const Field = propsField => {    
     // const handleInput = (e) => {
     //   // Guardando toda modificação feita no input
     //   setValueInput(e.target.value);
@@ -34,6 +34,12 @@ const Field = () => {
                 break;
             }
         }
+
+        if(!containsOffense && textArea != "Este comentário contém ofensa. Não foi possível adicioná-lo." && textArea != "" && textArea != " ") {
+            propsField.add(textArea);
+            console.log(">>>>> ", propsField.coments)
+        }
+
         setContent(textArea);
         showPopUp();
     }
