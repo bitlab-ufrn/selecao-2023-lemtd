@@ -1,36 +1,37 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/1a1_PfEr)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10835953&assignment_repo_type=AssignmentRepo)
-# Seleção Bitlab 2023
+# Desafio do processo seletivo do Bitlab - 2023
 
-Olá, bem vindo ao desafio para seleção de bolsistas para o Bitlab 2023! Nesse documento você encontrará as instruções para a execução do seu desafio! Sem enrolação, vamos as instruções.
+## 🖥 Demonstração da aplicação (acesso rápido e fácil)
+> Link: https://selecao-2023-lemtd.web.app/
 
-## Desafio
+<br />
 
-Havia uma vez uma pequena empresa de tecnologia chamada "Segurança Online". Eles eram especializados em segurança cibernética e estavam comprometidos em ajudar as pessoas a navegar na Internet de forma segura.
+## ➕ Propósito
+> O projeto __selecao-2023-lemtd__ se trata de uma aplicação que busca bloquear a maioria dos comentários maldosos adicionados à página, como ofensas e palavrões, e exibir os comentários dados como aceitáveis. Qualquer comentário feito, terá sua situação passada mediante análise de seu conteúdo.
 
-Um dia, a equipe da "Segurança Online" foi contatada por um cliente preocupado com o conteúdo inapropriado que estava aparecendo em seu site. O cliente explicou que o site permitia que os usuários postassem comentários e que muitos desses comentários continham linguagem ofensiva e até mesmo ameaças violentas.
+<br />
 
-A equipe da "Segurança Online" entendeu imediatamente a gravidade do problema e se comprometeu a encontrar uma solução. Eles sabiam que a melhor maneira de lidar com esse tipo de situação era criar um algoritmo de detecção de conteúdo impróprio.
+## ⚒️ Tecnologia
+> Essa implementação se trata de uma interface web simples desenvolvida com a biblioteca ReactJS, a qual utiliza a linguagem JavaScript e é voltada ao desenvolvimento frontend.
 
-Assim, suponha  que você foi o profissional escolhido pela "Segurança Online" para implementar tal solução.  **Logo, você deve criar um sistema capaz de detectar textos com conteúdo impróprio.**
+<br />
 
-> Entenda por conteúdo impróprio o texto que possui expressões ofensivos ou palavões.
+## ⌨️ Features
+> - Campo para comentário
+> - Botão para submissão do comentário para análise
+> - Exibir comentário analisado após submissão (no projeto fio utilizado popup para esse tópico)
 
-Você pode criar um conjunto de palavras e expressões ofensivas, caso ache necessário.
+<br />
 
-### Apresentação
+## ⚙️ Instruções para rodar a aplicação localmente:
+> - Possuir instalado em sua máquina as ferramentas Git e Node.JS
+> - O Git servirá para acessar o repositório onde se encontra o projeto. Caso não o possua instalado, verifique como realizar o download e instalação através do link: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+> - O Node.JS servirá principalmente para a utilização de seu gerenciador de pacotes (NPM). Caso não o possua instalado, faça o download e instalação através do link: https://nodejs.org/en
+> - Acessar o terminal de comando, acessar diretório desejado para clonar o projeto e fazer o clone do projeto utilizando o comando: __git clone https://github.com/bitlab-ufrn/selecao-2023-lemtd.git__
+> - Após clonar, acesse a pasta __selecao__
+> - Utilize o gerenciador de pacots NPM para inicializar a aplicação: __npm start__
+> - A utilização do comando acima irá abrir uma página em seu navegador na qual terá a aplicação rodando
 
-Para a utilização do seu algoritmo, crie uma interface simples __web__ que permita que o usuário escreva um texto e submeta a análise se contém ou não conteúdo ofensivo. Você deve apresentar na interface claramente o resultado obtido pelo algoritmo.
+<br />
 
-Você está livre para utilizar qualquer linguagem ou ferramenta.
-
-## Instruções
-
-1. Acesso o link https://classroom.github.com/a/1a1_PfEr e aceite o convite
-1. Isso criará um repositório no seu nome, por onde deves enviar o seu código.
-1. Faça as alterações no repositório, comite e envie ao repositório remoto.
-1. Escreva um código limpo e de fácil compreensão
-1. Faça deploy para algum serviço de __cloud__ para que possamos acessar facilmente e testar sua aplicação. Sugestão https://vercel.com/
-1. Adicione a esse README instruções de acesso ao seu sistema
-
-## Acesso
+## 😊 Autora
+> Leticia Manuelle Tomaz Deodato
