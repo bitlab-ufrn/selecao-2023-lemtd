@@ -1,4 +1,4 @@
-#messagem {
+#message {
     margin: 3rem;
     min-width: 20vh;
     width: 60vh;
@@ -10,7 +10,7 @@
     line-height: normal; 
 }
 
-#enviar {
+#send {
     width: 40vh;
     min-width: 10vh;
 }

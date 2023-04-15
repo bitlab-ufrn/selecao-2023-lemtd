@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import '../style/Field.css';
-import Coment from './Coment';
 import Popup from './Popup';
-// import { addComent } from './Coment';
 const data = require('../data/offensesSet');
 
 const Field = propsField => {    
@@ -14,33 +12,35 @@ const Field = propsField => {
     const handleSubmit = (e) => {
         // Evita submissão via GET
         e.preventDefault();
-    
-        // Recebendo os dados via submit
     };
     
-    const[content, setContent] = useState(''); //Comentário atual
-    const[containsOffense, setContains] = useState(false); //Bool se contém ofensa
+    const[comentContent, setComentContent] = useState(''); // Comentário atual
+    const[containsOffense, setContains] = useState(false); // Bool se contém ofensa
     
     async function checkText() {
         setContains(false);
-        var textAreaToCheckUpper = document.getElementById('messagem').value.toUpperCase();
-        var textArea = document.getElementById('messagem').value;
+        var textAreaToCheckUpper = document.getElementById('message').value.toUpperCase(); // Upper case para ajudar a avaliar o conteudo da mensagem
+        var textArea = document.getElementById('message').value; // Guardar mensagem original
     
         for(let index = 0; index < data['offensesSet'].length; index++) {
-            var element = data['offensesSet'][index].toUpperCase();
-            if (textAreaToCheckUpper.includes(element)){
+            var element = data['offensesSet'][index].toUpperCase(); // Upper case para ajudar a avaliar o conteudo da mensagem
+            if (textAreaToCheckUpper.includes(element)){ // Análise do conteúdo da mensagem
                 setContains(true);
                 textArea = "Este comentário contém ofensa. Não foi possível adicioná-lo."
                 break;
             }
         }
 
+        // Armazenar mensagem com conteúdo não ofensivo
         if(!containsOffense && textArea != "Este comentário contém ofensa. Não foi possível adicioná-lo." && textArea != "" && textArea != " ") {
             propsField.add(textArea);
             console.log(">>>>> ", propsField.coments)
         }
 
-        setContent(textArea);
+        // Seta valor com o resultado da análise
+        setComentContent(textArea);
+
+        // Exibe popup
         showPopUp();
     }
     
@@ -57,15 +57,15 @@ const Field = propsField => {
     return (   
         <div className='field'>
             <form onSubmit={handleSubmit}>
-                <textarea id="messagem" name="conteudo" placeholder='Insira sua mensagem'
+                <textarea id="message" name="messageContent" placeholder='Insira sua mensagem'
                 // onChange={handleInput} value={valueInput}
                 />
-                <button id='enviar' type='submit' onClick={checkText}>Enviar</button>
+                <button id='send' type='submit' onClick={checkText}>Enviar</button>
             </form>
             {popup? <Popup
                         contains={containsOffense}
                         closeIt={hidePopup}
-                        content={content}/>
+                        content={comentContent}/>
                     : ""}
         </div>
     )
