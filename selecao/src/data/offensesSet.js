@@ -10,5 +10,8 @@ exports.offensesSet = [
     "Pica", "Vai tomar no cu", "Corno", "Fudido", "Fodido",
     "Cachorro", "Cachorra", "Canalha", "Escroto", "Escrota",
     "Trouxa", "Vaca", "Palhaço", "Merda", "Bosta",
-    "Saco",
+    "Saco", "Fdp", "Tnc", "Baitola", "Krl",
+    "Otária", "Otário", "Otaria", "Otario", "Vagabunda",
+    "Macaco", "Burro", "Prostituta", "Piranha", "Imbecil",
+    "Putinha"
 ]
