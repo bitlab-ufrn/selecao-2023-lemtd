@@ -2,7 +2,6 @@
 
 ### 🖥 Demonstração da aplicação (acesso rápido e fácil)
 > Link: https://selecao-2023-lemtd.web.app/
-
 > - Não foi possível trabalhar a responsavidade da melhor forma.
 
 ### ➕ Propósito
