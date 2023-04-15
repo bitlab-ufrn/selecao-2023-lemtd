@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './style/App.css';
-import Welcome from './components/Header';
+import Header from './components/Header';
 import Field from './components/Field';
 import Coment from './components/Coment';
 
@@ -12,11 +12,13 @@ const App = () => {
   }
 
   return (
-    <main className='App'>
-      <Welcome />
-      <Field add={addComents} coments={coments} />
-      <Coment coments={coments} />
-    </main>
+    <div className='App'>
+      <div className='div-main'>
+        <Header />
+        <Field add={addComents} coments={coments} />
+        <Coment coments={coments} />
+      </div>
+    </div>
   );
 }
 
