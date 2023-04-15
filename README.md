@@ -3,6 +3,8 @@
 ### 🖥 Demonstração da aplicação (acesso rápido e fácil)
 > Link: https://selecao-2023-lemtd.web.app/
 
+> - Não foi possível trabalhar a responsavidade da melhor forma.
+
 ### ➕ Propósito
 > O projeto __selecao-2023-lemtd__ se trata de uma aplicação que busca bloquear a maioria dos comentários maldosos adicionados à página, como ofensas e palavrões, e exibir os comentários dados como aceitáveis. Qualquer comentário feito, terá sua situação passada mediante análise de seu conteúdo.
 
