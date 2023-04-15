@@ -3,24 +3,16 @@
 ### 🖥 Demonstração da aplicação (acesso rápido e fácil)
 > Link: https://selecao-2023-lemtd.web.app/
 
-<br />
-
 ### ➕ Propósito
 > O projeto __selecao-2023-lemtd__ se trata de uma aplicação que busca bloquear a maioria dos comentários maldosos adicionados à página, como ofensas e palavrões, e exibir os comentários dados como aceitáveis. Qualquer comentário feito, terá sua situação passada mediante análise de seu conteúdo.
 
-<br />
-
 ### ⚒️ Tecnologia
 > Essa implementação se trata de uma interface web simples desenvolvida com a biblioteca ReactJS, a qual utiliza a linguagem JavaScript e é voltada ao desenvolvimento frontend.
-
-<br />
 
 ### ⌨️ Features
 > - Campo para comentário
 > - Botão para submissão do comentário para análise
 > - Exibir comentário analisado após submissão (no projeto fio utilizado popup para esse tópico)
-
-<br />
 
 ### ⚙️ Instruções para rodar a aplicação localmente:
 > - Possuir instalado em sua máquina as ferramentas Git e Node.JS
@@ -31,7 +23,10 @@
 > - Utilize o gerenciador de pacots NPM para inicializar a aplicação: __npm start__
 > - A utilização do comando acima irá abrir uma página em seu navegador na qual terá a aplicação rodando
 
-<br />
+### 💼 Conjunto dos dados
+> Foi feito um conjunto de dados para armazenar quais palavras ou expressões estão consideradas como ofensivas.
+> Esse conjunto pode ser visualizado acessando o seguinte caminho:
+> - __selecao > src > data > offensesSet.js__
 
 ### 😊 Autora
 > Leticia Manuelle Tomaz Deodato
