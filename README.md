@@ -23,7 +23,7 @@
 > - Utilize o gerenciador de pacots NPM para inicializar a aplicação: __npm start__
 > - A utilização do comando acima irá abrir uma página em seu navegador na qual terá a aplicação rodando
 
-### 💼 Conjunto dos dados
+### 💼 Conjunto de dados
 > Foi feito um conjunto de dados para armazenar quais palavras ou expressões estão consideradas como ofensivas.
 > Esse conjunto pode ser visualizado acessando o seguinte caminho:
 > - __selecao > src > data > offensesSet.js__
