@@ -1,3 +1,12 @@
-#header {
-    color: white;
+.header {
+    color: rgb(114, 70, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atentar {
+    width: 650px;
 }

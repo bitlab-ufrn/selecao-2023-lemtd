@@ -1,11 +1,14 @@
 import '../style/Header.css'
 
-const Welcome = () => {
+const Header = () => {
     return (
-        <div id="header">
-            <h2>Deixe seu comentário abaixo:</h2>
+        <div>
+            <div className="header">
+                <h2>Deixe aqui uma mensagem:</h2>
+                <h3 className='atentar'>Atente-se a não utilizar palavras ou expressões consideradas ofensivas. Estes comentários serão desconsiderados mediante análise.</h3>
+            </div>
         </div>
     )
 }
 
-export default Welcome
+export default Header

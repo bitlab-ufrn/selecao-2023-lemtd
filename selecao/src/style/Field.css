@@ -3,6 +3,11 @@
     min-width: 20vh;
     width: 60vh;
     height: 15vh;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    outline: none;
+    text-indent: 10px;
+    line-height: normal; 
 }
 
 #enviar {

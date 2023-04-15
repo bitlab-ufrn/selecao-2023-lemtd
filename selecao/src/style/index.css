@@ -7,7 +7,10 @@
 body, html {
   min-height: 100vh;
   height: 100%;
-  background-color: rgb(24, 37, 55);
+  /* background: radial-gradient(circle, rgba(7,44,83,1) 75%, rgba(3,0,52,1) 100%); */
+  /* background-color: rgb(24, 37, 55); */
+  background: #003153;
+  /* background: radial-gradient(circle, rgba(24,37,55,1) 0%, rgba(148,187,233,1) 100%, rgba(148,187,233,1) 100%, rgba(148,187,233,1) 100%);  */
 }
 
 button {
@@ -15,12 +18,12 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: .8rem 1.5rem;
-  background: #1e4d69;
+  background: rgb(129, 80, 0);
   color: white;
   border-radius: 3rem;
   border: none;
 }
 
 button:hover {
-  background: #5c7994;
+  background: #5f88ae;
 }
